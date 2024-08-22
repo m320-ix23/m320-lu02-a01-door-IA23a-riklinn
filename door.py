@@ -52,6 +52,7 @@ class Door:
             self.door_is_locked = self._the_door_lock.lock()
 
     def unlock_the_door(self):
+
         """
         Methode für das entriegeln der Türe
         Das ist nur möglich, wenn die Türe verriegelt ist.
